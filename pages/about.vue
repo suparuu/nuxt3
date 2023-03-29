@@ -11,7 +11,7 @@
 
 <script setup>  
     const aa = useState('g',()=>'about 내용쪽 데이터 ');
-    const { data : resData } = await useFetch('api/db', {body:'{id:1000}', method:'POST'});
+    const { data : resData } = await useFetch('api/db');
 </script>
 
 <script> 
