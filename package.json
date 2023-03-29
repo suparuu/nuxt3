@@ -1,0 +1,23 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "start": "nuxt start"
+    
+  },
+  "devDependencies": {
+    "nuxt": "^3.3.2"
+  },
+  "dependencies": {
+    "mysql": "^2.18.1",
+    "mysql2": "^3.2.0",
+    "sass": "^1.60.0",
+    "vue": "^3.2.36",
+    "vuex": "^4.0.2"
+  }
+}
